@@ -7,7 +7,7 @@
 - TODO Make array of pronouns d
 - TODO Make array of verbs d
 - TODO Make array of nouns d
-- TODO Make random selector function, put it into the string out put
+- TODO Make random selector function, put it into the string out put d
 - TODO Make option to input new noun or verb via command linMarkdown Preview Enhanced
 - TODO Make options to accept or reject catch phrase and add to collection
 ---
