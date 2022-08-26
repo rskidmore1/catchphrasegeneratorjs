@@ -1,6 +1,6 @@
 //catchPhraseGenerator.js
 
-function randomizer(input){
+function randomizer(input) {
   const randomString = input[Math.floor(Math.random() * input.length)]
   return randomString;
 }
@@ -17,4 +17,4 @@ const noun = [
 ];
 
 // console.log(pronouns[Math.floor(Math.random() * pronouns.length)]);
-console.log(randomizer(pronouns))
+console.log(`${randomizer(pronouns)} ${randomizer(verbs)} ${randomizer(noun)}`)
