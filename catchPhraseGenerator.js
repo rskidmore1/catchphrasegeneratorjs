@@ -16,5 +16,12 @@ const noun = [
   "vs code",
 ];
 
+// const fetch = require('node-fetch');
+import fetch from 'node-fetch'
+
+fetch('http://movie-quotes-app.herokuapp.com/api')
+  .then(res => res.text())
+  .then(text => console.log(text))
+
 // console.log(pronouns[Math.floor(Math.random() * pronouns.length)]);
-console.log(`${randomizer(pronouns)} ${randomizer(verbs)} ${randomizer(noun)}`)
+// console.log(`${randomizer(pronouns)} ${randomizer(verbs)} ${randomizer(noun)}`)

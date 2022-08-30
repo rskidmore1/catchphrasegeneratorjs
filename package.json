@@ -1,0 +1,23 @@
+{
+  "name": "catchphrasegeneratorjs",
+  "version": "1.0.0",
+  "description": "<!-- README.md -->",
+  "main": "catchPhraseGenerator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rskidmore1/catchphrasegeneratorjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rskidmore1/catchphrasegeneratorjs/issues"
+  },
+  "homepage": "https://github.com/rskidmore1/catchphrasegeneratorjs#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.10"
+  },
+  "type": "module"
+}
