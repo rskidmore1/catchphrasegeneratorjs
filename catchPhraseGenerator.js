@@ -19,8 +19,8 @@ const noun = [
 // const fetch = require('node-fetch');
 import fetch from 'node-fetch'
 
-fetch('http://movie-quotes-app.herokuapp.com/api')
-  .then(res => res.text())
+fetch('https://juanroldan1989-moviequotes-v1.p.rapidapi.com/api/v1/quotes')
+  .then(res => res.json())
   .then(text => console.log(text))
 
 // console.log(pronouns[Math.floor(Math.random() * pronouns.length)]);

@@ -8,8 +8,8 @@
 - TODO Make array of verbs d
 - TODO Make array of nouns d
 - TODO Make random selector function, put it into the string out put d
-- TODO Return famous catchphrases from movie catchphrases api, cont... get fetch working
-  - TODO Find API and return a catchphrases
+- TODO Return famous catchphrases from movie catchphrases api
+  - TODO Find API and return a catchphrases START HERE
   - TODO Return movie catchphrases or my catchphrases based on random math
 - TODO Add logic for grammar of the verb. Example eat vs eats depending
 - TODO Plan out making catchphrases based on cut up versions of movie catchphrases
