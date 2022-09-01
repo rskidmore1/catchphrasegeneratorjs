@@ -19,7 +19,7 @@ const noun = [
 // const fetch = require('node-fetch');
 import fetch from 'node-fetch'
 
-fetch('https://juanroldan1989-moviequotes-v1.p.rapidapi.com/api/v1/quotes')
+fetch('https://movie-quote-api.herokuapp.com/v1/quote/')
   .then(res => res.json())
   .then(text => console.log(text))
 
